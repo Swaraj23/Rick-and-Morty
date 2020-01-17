@@ -1,3 +1,27 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  font-size: 14px;
+}
+h3{
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+.pull-right{
+  float: right;
+}
+.pull-left{
+  float: left;
+}
+.clearfix{
+  clear: both;
+}
+
+
 .App {
   text-align: center;
 }

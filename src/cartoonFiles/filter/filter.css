@@ -1,0 +1,18 @@
+.filterContainer{
+    padding: 10px 20px;
+}
+
+.filterContainer fieldset{
+    padding: 10px;
+}
+
+.filterContainer legend{
+    text-transform: capitalize;
+    margin: 0;
+    font-size: 1rem;
+}
+
+.filterContainer label{
+    margin-left: 8px;
+    font-size: 12px;
+}

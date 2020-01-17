@@ -1,0 +1,77 @@
+.charGrp > div{
+    display: inline-block;
+    margin: 15px 0;
+}
+
+
+.singleCharDetails{
+    vertical-align: top;
+}
+
+.singleCharDetails img{
+    width: 100%;
+}
+
+.singleCharDetails .imageDetails{
+    position: relative;
+}
+.sortingDiv{
+    margin-right: 15px;
+}
+.singleCharDetails .imageDetails .identify{
+    position: absolute;
+    bottom: 0;
+    line-height: 0.8rem;
+    background: #000;
+    opacity: 0.6;
+    width: 100%;
+    color: #fff;
+    padding: 5px 10px;
+}
+.identify > div{
+    font-size: 10px;
+}
+.cartoonContainer > div:first-child{
+    padding: 15px
+}
+.moreDetails{
+    background: #333;
+    padding: 5px 10px;
+    font-size: 0.9rem;
+}
+.moreDetails > div{
+    width: 100%;
+    font-size: 12px;
+    padding: 10px 0;
+    border-top: 1px solid #555;
+}
+.moreDetails > div:first-child{
+    border-top: none;
+}
+.moreDetails > div > div {
+    display: inline-block;
+}
+.moreDetails .keyName{
+    color: #888484;
+    width: 25%;
+}
+.moreDetails .keyValue{
+    color: #A76720;
+    width: 75%;
+    text-align: right;
+}
+
+.selectedFilters{
+    text-transform: capitalize;
+    width: auto;
+    display: inline-block;
+    padding: 5px 10px;
+    background: #333;
+    color: #fff;
+    border-radius: 5px;
+    margin: 5px;
+}
+.remove{
+    padding-left: 5px;
+    cursor: pointer;
+}
